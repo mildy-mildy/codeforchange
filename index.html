@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>covid tracker</title>
+     <link rel= "stylesheet" href="style.css">
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="statistic">
+            <div class="total_case_box">
+                <h2>
+                    <i class="fa fa-address-book" aria-hidden="true"></i>
+                    Total cases
+                </h2>
+                <p style ="font-size:3rem;" id="total_cases">test</p>
+            </div>
+            <div class="box_wrapper">
+                <div class="box">
+                    <h2>
+                        <i class="fa fa-user-times" aria-hidden="true"></i>
+                        Total death
+                    </h2>
+                    <p style="font-size:1.5 rem;" id="total_death">test</p>
+                </div>
+                <div class="box">
+                    <h2>
+                        <i class="fa fa-refresh" aria-hidden="true"></i>
+                        Total recovery
+                    </h2>
+                    <p style="font-size:1.5 rem;" id="total_recovered">test</p>
+                </div>
+                <div class="box">
+                    <h2>
+                        <i class="fa fa-plus-circle" aria-hidden="true"></i>
+                        New case
+                    </h2>
+                    <p style="font-size:1.5 rem;" id="new_cases">test</p>
+                </div>
+                <div class="box">
+                    <h2>
+                        <i class="fa fa-user-circle-o" aria-hidden="true"></i>
+                        New death
+                    </h2>
+                    <p style="font-size:1.5 rem;" id="new_death">test</p>
+                </div>
+
+            </div>
+        </div>
+
+        <table class ="countries_stat" id="countries_stat">
+            <tr> 
+                <th>country</th>
+                <th>Cases</th>
+                <th>Deaths</th>
+                <th>Serious critical</th>
+                <th>Total recovered</th>
+            </tr>
+        </table>
+    </div>
+
+    <script src= "script.js"></script>
+    
+</body>
+</html>

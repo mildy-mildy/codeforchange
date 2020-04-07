@@ -1,0 +1,68 @@
+*{margin:o;
+padding:0;
+box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(covid.jpg);
+    background-position: center;
+    background-size: cover;
+  
+}
+
+i{
+    color : #1e88e5 ;
+
+}
+.wrapper{
+    width : 1040 px;
+    margin : 0 auto;
+    
+}
+.statistic{
+    display : flex;
+    flex-direction: column;
+
+}
+.total_case_box{
+    margin-top: 2rem;
+    padding : 3 rem;
+    text-align: center;
+   border-radius: 15px;
+   background-color: aliceblue;
+   box-shadow: 5px 5px 40px;
+}
+
+.box_wrapper {
+    margin-top : 1rem ;
+    display : grid;
+    grid-template-columns:repeat(4,1fr) ;
+    padding: 1 rem;
+    text-align: center;
+    border-radius: 15px;
+    background: aliceblue;
+    box-shadow: 5px 5px 40px rgba(0,0,0,0.3);
+   
+}
+
+.box {
+    border-right : 1px solid #ccc ;
+
+}
+
+.box : last-child{
+    border : none ;
+}
+
+.countries_stat{
+    width :100%;
+    margin-top: 1 rem;
+    padding :1 rem;
+    text-align : center ;
+    border-radius : 15 px;
+    background: #fff;
+    box-shadow: 5px 5px 40px;
+
+}
+
